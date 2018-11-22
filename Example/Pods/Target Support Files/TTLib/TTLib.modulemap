@@ -1,0 +1,6 @@
+framework module TTLib {
+  umbrella header "TTLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
