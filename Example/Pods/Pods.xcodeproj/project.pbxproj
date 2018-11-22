@@ -39,18 +39,18 @@
 
 /* Begin PBXFileReference section */
 		0469769D1F815A32EF181332E024101E /* Pods-TTLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		091285450ED732A48D999D4648D22E6E /* TTLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		091285450ED732A48D999D4648D22E6E /* TTLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TTLib.podspec; sourceTree = "<group>"; };
 		0A8CF318D9CE56024E752040979FF345 /* NSString+TT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TT.h"; path = "TTLib/Classes/NSString+TT.h"; sourceTree = "<group>"; };
-		1061E0BCBFA8F29EFF028A08D53AA258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1061E0BCBFA8F29EFF028A08D53AA258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1D51506C744D619F5A865620746F8D49 /* Pods-TTLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTLib_Tests.modulemap"; sourceTree = "<group>"; };
 		21BDE0BF77DF6D18D1E49EB06F425EFA /* TTLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTLib-dummy.m"; sourceTree = "<group>"; };
 		23E10CF964E7C52FEFAEA9A48D811C84 /* Pods-TTLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2460375A119730004EFCF94A983A73F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A658901414185F32A4A0A1F609D1215 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A658901414185F32A4A0A1F609D1215 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2AFDD789A2CB0FA9E6874938D34B900B /* TTLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTLib.modulemap; sourceTree = "<group>"; };
 		36DE82D4160B4A441A558C3743731993 /* Pods-TTLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Example-resources.sh"; sourceTree = "<group>"; };
 		39100FAD720552999CA243ABB4C92E10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D50B9B33836DA07A902169A018802F3 /* Pods_TTLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTLib_Tests.framework; path = "Pods-TTLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D50B9B33836DA07A902169A018802F3 /* Pods_TTLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8E90AD536AF4C12E49857D7F8C388A /* Pods-TTLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		556C293276F40381BC17B7E15917D50E /* TTLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-umbrella.h"; sourceTree = "<group>"; };
 		593626557698F2635AA5F7942D1092CE /* Pods-TTLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -60,18 +60,18 @@
 		876BBAD290AAFDDF32D8068F49C370B0 /* Pods-TTLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8E77D6E2E44BEB2C39EF7BD247028C5E /* TTLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTLib.xcconfig; sourceTree = "<group>"; };
 		8F40E1608E05CB1217BC790A80275EB2 /* Pods-TTLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96847F2912AE6718DCD696F02BD36867 /* Pods-TTLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTLib_Example-dummy.m"; sourceTree = "<group>"; };
 		97816DC7BA6F60ED304651FA739059C2 /* Pods-TTLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A032B1E423660DA9FBCB40E1174C88A0 /* Pods-TTLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC0978B1C84E0E9E71EB750093B72411 /* Pods-TTLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2DB36F4019D9C2537A1BAD3CB667EE5 /* Pods-TTLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BBC86F7F6853F1CBF8CAB7CC4505C807 /* Pods_TTLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTLib_Example.framework; path = "Pods-TTLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC86F7F6853F1CBF8CAB7CC4505C807 /* Pods_TTLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C2108C53583573A467FDFC59B4DF1F /* Pods-TTLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8B1125085A5A54E997E3BC6E3381253 /* Pods-TTLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8F0C202E8C049B670FB573512F53B81 /* Pods-TTLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D511A3EEA98514F3752546C4805D14D5 /* NSString+TT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TT.m"; path = "TTLib/Classes/NSString+TT.m"; sourceTree = "<group>"; };
-		E8D1E3DC9F7F5B6C305351DB94B9D945 /* TTLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTLib.framework; path = TTLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D1E3DC9F7F5B6C305351DB94B9D945 /* TTLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC936DE96944D474AAC7C07FD7ACBB1E /* TTLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-prefix.pch"; sourceTree = "<group>"; };
 		F81A19786423D126FB76535ACF209367 /* Pods-TTLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
