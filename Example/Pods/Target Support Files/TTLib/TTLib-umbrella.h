@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+TT.h"
 
 FOUNDATION_EXPORT double TTLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char TTLibVersionString[];
