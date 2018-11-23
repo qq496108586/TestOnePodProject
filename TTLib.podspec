@@ -31,7 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TTLib/Classes/**/*'
-  
+
+  s.subspec 'TestOne' do |ss|
+    ss.source_files = 'TTLib/Classes/TestOne/*'
+  end
+
   # s.resource_bundles = {
   #   'TTLib' => ['TTLib/Assets/*.png']
   # }

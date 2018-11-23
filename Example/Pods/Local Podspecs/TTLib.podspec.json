@@ -1,6 +1,6 @@
 {
   "name": "TTLib",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "tt",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/qq496108586/TestOnePodProject",
@@ -13,10 +13,16 @@
   },
   "source": {
     "git": "https://github.com/qq496108586/TestOnePodProject.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TTLib/Classes/**/*"
+  "source_files": "TTLib/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "TestOne",
+      "source_files": "TTLib/Classes/TestOne/**/*"
+    }
+  ]
 }

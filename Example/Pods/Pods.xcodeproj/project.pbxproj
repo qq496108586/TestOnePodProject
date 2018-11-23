@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		072ECFB92F44A93BD3AEC121CB3933FA /* TTLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 556C293276F40381BC17B7E15917D50E /* TTLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		098946DCD3F4315B139E995A48E0666A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		110D35062437FD31F6138070BF41BAC4 /* NSString+TT.m in Sources */ = {isa = PBXBuildFile; fileRef = 7380376037F304DF6E72D15C39262E21 /* NSString+TT.m */; };
+		17FA9B8ACD1A5192ACEF85C9886D4127 /* TTLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F405E9464D928964DFC00A42BC37AEE /* TTLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6A718F945E6F5B73D22A707E26CA3A /* TTLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2516AAFA1C4815D26A8A91326E074213 /* TTLib-dummy.m */; };
 		2C36B52939A5AD95BF6AAA1BCF602C5F /* Pods-TTLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0469769D1F815A32EF181332E024101E /* Pods-TTLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F3794A9E260CFA2A8C5C5D2443E8C45 /* Pods-TTLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96847F2912AE6718DCD696F02BD36867 /* Pods-TTLib_Example-dummy.m */; };
 		456AA1B603D140F16CC02FB3B30AB791 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4F84361FA115D9E5F02A288E43F1E141 /* Pods-TTLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E10CF964E7C52FEFAEA9A48D811C84 /* Pods-TTLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54B2FE92344C435684555394F98A512F /* TTLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BDE0BF77DF6D18D1E49EB06F425EFA /* TTLib-dummy.m */; };
+		58F3D8B0F5A5BDB8B7A58E759EC460C0 /* NSString+TTOne.m in Sources */ = {isa = PBXBuildFile; fileRef = E18698335D910801FF1001E4F9B14C83 /* NSString+TTOne.m */; };
 		6EB8102EE97DF403A1EBFF338EE97266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		74C7BCE9DA0937DC24D9B075DBE5146F /* NSString+TT.m in Sources */ = {isa = PBXBuildFile; fileRef = D511A3EEA98514F3752546C4805D14D5 /* NSString+TT.m */; };
-		C3FD116C1CC3B3DB5A7F4C6BC0BA13B9 /* NSString+TT.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8CF318D9CE56024E752040979FF345 /* NSString+TT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B0A90E3790210429FF2741D6EA9F95 /* NSString+TT.h in Headers */ = {isa = PBXBuildFile; fileRef = 20EEEB6AA3183478BA50E612FC9A5D9C /* NSString+TT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8D532DAE862F5D2A581FA1A00CC148 /* NSString+TTOne.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D0A73496B26DEA22E8C8DF518DA626 /* NSString+TTOne.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6850919A344370E886E40ECB4B05326 /* Pods-TTLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E90AD536AF4C12E49857D7F8C388A /* Pods-TTLib_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -38,41 +40,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03C7DE8BBB611AC83C525F36C85D2476 /* TTLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTLib.xcconfig; sourceTree = "<group>"; };
 		0469769D1F815A32EF181332E024101E /* Pods-TTLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		091285450ED732A48D999D4648D22E6E /* TTLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TTLib.podspec; sourceTree = "<group>"; };
-		0A8CF318D9CE56024E752040979FF345 /* NSString+TT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TT.h"; path = "TTLib/Classes/NSString+TT.h"; sourceTree = "<group>"; };
-		1061E0BCBFA8F29EFF028A08D53AA258 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		10D0A73496B26DEA22E8C8DF518DA626 /* NSString+TTOne.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TTOne.h"; sourceTree = "<group>"; };
 		1D51506C744D619F5A865620746F8D49 /* Pods-TTLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTLib_Tests.modulemap"; sourceTree = "<group>"; };
-		21BDE0BF77DF6D18D1E49EB06F425EFA /* TTLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTLib-dummy.m"; sourceTree = "<group>"; };
+		20EEEB6AA3183478BA50E612FC9A5D9C /* NSString+TT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TT.h"; path = "TTLib/Classes/NSString+TT.h"; sourceTree = "<group>"; };
+		20FE02D96A00996398792B8CDE024AD4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23E10CF964E7C52FEFAEA9A48D811C84 /* Pods-TTLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2460375A119730004EFCF94A983A73F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A658901414185F32A4A0A1F609D1215 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2AFDD789A2CB0FA9E6874938D34B900B /* TTLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTLib.modulemap; sourceTree = "<group>"; };
+		2516AAFA1C4815D26A8A91326E074213 /* TTLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTLib-dummy.m"; sourceTree = "<group>"; };
 		36DE82D4160B4A441A558C3743731993 /* Pods-TTLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Example-resources.sh"; sourceTree = "<group>"; };
-		39100FAD720552999CA243ABB4C92E10 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D50B9B33836DA07A902169A018802F3 /* Pods_TTLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D50B9B33836DA07A902169A018802F3 /* Pods_TTLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTLib_Tests.framework; path = "Pods-TTLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8E90AD536AF4C12E49857D7F8C388A /* Pods-TTLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		556C293276F40381BC17B7E15917D50E /* TTLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-umbrella.h"; sourceTree = "<group>"; };
+		52DF0D142718D53141E628DD794ED334 /* TTLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TTLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		593626557698F2635AA5F7942D1092CE /* Pods-TTLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		5A9463372D5FF8EB472B13BEA1F9F057 /* Pods-TTLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TTLib_Example.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F405E9464D928964DFC00A42BC37AEE /* TTLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-umbrella.h"; sourceTree = "<group>"; };
+		7380376037F304DF6E72D15C39262E21 /* NSString+TT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TT.m"; path = "TTLib/Classes/NSString+TT.m"; sourceTree = "<group>"; };
 		751875EAF25BD885A5BB9CCF4670ADA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8292382214C89923263ED3F41B56F49D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		876BBAD290AAFDDF32D8068F49C370B0 /* Pods-TTLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8E77D6E2E44BEB2C39EF7BD247028C5E /* TTLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTLib.xcconfig; sourceTree = "<group>"; };
 		8F40E1608E05CB1217BC790A80275EB2 /* Pods-TTLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90CD231D0243CFEC5826C583C2942666 /* TTLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TTLib.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96847F2912AE6718DCD696F02BD36867 /* Pods-TTLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTLib_Example-dummy.m"; sourceTree = "<group>"; };
 		97816DC7BA6F60ED304651FA739059C2 /* Pods-TTLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A032B1E423660DA9FBCB40E1174C88A0 /* Pods-TTLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AC0978B1C84E0E9E71EB750093B72411 /* Pods-TTLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2DB36F4019D9C2537A1BAD3CB667EE5 /* Pods-TTLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BBC86F7F6853F1CBF8CAB7CC4505C807 /* Pods_TTLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC86F7F6853F1CBF8CAB7CC4505C807 /* Pods_TTLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TTLib_Example.framework; path = "Pods-TTLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD54ADAA38C716343819EB6303CB51FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BE76BF5EA5C5DCC6335D0D74034E609C /* TTLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-prefix.pch"; sourceTree = "<group>"; };
 		C1C2108C53583573A467FDFC59B4DF1F /* Pods-TTLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8B1125085A5A54E997E3BC6E3381253 /* Pods-TTLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C8F0C202E8C049B670FB573512F53B81 /* Pods-TTLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		D511A3EEA98514F3752546C4805D14D5 /* NSString+TT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TT.m"; path = "TTLib/Classes/NSString+TT.m"; sourceTree = "<group>"; };
-		E8D1E3DC9F7F5B6C305351DB94B9D945 /* TTLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC936DE96944D474AAC7C07FD7ACBB1E /* TTLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTLib-prefix.pch"; sourceTree = "<group>"; };
+		E18698335D910801FF1001E4F9B14C83 /* NSString+TTOne.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TTOne.m"; sourceTree = "<group>"; };
+		E8D1E3DC9F7F5B6C305351DB94B9D945 /* TTLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTLib.framework; path = TTLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81A19786423D126FB76535ACF209367 /* Pods-TTLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +108,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07660CEF061EC32213E7EF4546DDC37C /* TTLib */ = {
+			isa = PBXGroup;
+			children = (
+				20EEEB6AA3183478BA50E612FC9A5D9C /* NSString+TT.h */,
+				7380376037F304DF6E72D15C39262E21 /* NSString+TT.m */,
+				372E01FBBBAC7AF165C81A695D90246B /* Pod */,
+				93F2F868951550668B0B90758AA93941 /* Support Files */,
+				4D687A399E6F89938DA25F16143AA1DD /* TestOne */,
+			);
+			name = TTLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		372E01FBBBAC7AF165C81A695D90246B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD54ADAA38C716343819EB6303CB51FA /* LICENSE */,
+				8292382214C89923263ED3F41B56F49D /* README.md */,
+				52DF0D142718D53141E628DD794ED334 /* TTLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3B2E8D6F1F531FA82ACDAF463F000F52 /* Pods-TTLib_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,16 +159,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DE85B1701DB20DBB6ADEBD9922D236F /* TTLib */ = {
+		4D687A399E6F89938DA25F16143AA1DD /* TestOne */ = {
 			isa = PBXGroup;
 			children = (
-				0A8CF318D9CE56024E752040979FF345 /* NSString+TT.h */,
-				D511A3EEA98514F3752546C4805D14D5 /* NSString+TT.m */,
-				E97D3357D894A1B0BB0316F9A33B811E /* Pod */,
-				82F668495638D916117BE2BC265366B5 /* Support Files */,
+				10D0A73496B26DEA22E8C8DF518DA626 /* NSString+TTOne.h */,
+				E18698335D910801FF1001E4F9B14C83 /* NSString+TTOne.m */,
 			);
-			name = TTLib;
-			path = ../..;
+			name = TestOne;
+			path = TTLib/Classes/TestOne;
+			sourceTree = "<group>";
+		};
+		4E29C25DA9EBD92158C253C94AD0ED81 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07660CEF061EC32213E7EF4546DDC37C /* TTLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		74E77D42F6216790FB5FA80D7047AE22 /* Pods-TTLib_Tests */ = {
@@ -166,22 +199,22 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A9B3C1AAB28AD086A4579EFEE8C55EAA /* Development Pods */,
+				4E29C25DA9EBD92158C253C94AD0ED81 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				42349D8238B844C6D36A58FB1A3DA0A3 /* Products */,
 				95B9D274127AEED4DD6E12FD70F05E0C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		82F668495638D916117BE2BC265366B5 /* Support Files */ = {
+		93F2F868951550668B0B90758AA93941 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				39100FAD720552999CA243ABB4C92E10 /* Info.plist */,
-				2AFDD789A2CB0FA9E6874938D34B900B /* TTLib.modulemap */,
-				8E77D6E2E44BEB2C39EF7BD247028C5E /* TTLib.xcconfig */,
-				21BDE0BF77DF6D18D1E49EB06F425EFA /* TTLib-dummy.m */,
-				EC936DE96944D474AAC7C07FD7ACBB1E /* TTLib-prefix.pch */,
-				556C293276F40381BC17B7E15917D50E /* TTLib-umbrella.h */,
+				20FE02D96A00996398792B8CDE024AD4 /* Info.plist */,
+				90CD231D0243CFEC5826C583C2942666 /* TTLib.modulemap */,
+				03C7DE8BBB611AC83C525F36C85D2476 /* TTLib.xcconfig */,
+				2516AAFA1C4815D26A8A91326E074213 /* TTLib-dummy.m */,
+				BE76BF5EA5C5DCC6335D0D74034E609C /* TTLib-prefix.pch */,
+				6F405E9464D928964DFC00A42BC37AEE /* TTLib-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TTLib";
@@ -194,14 +227,6 @@
 				74E77D42F6216790FB5FA80D7047AE22 /* Pods-TTLib_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A9B3C1AAB28AD086A4579EFEE8C55EAA /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4DE85B1701DB20DBB6ADEBD9922D236F /* TTLib */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -218,16 +243,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		E97D3357D894A1B0BB0316F9A33B811E /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1061E0BCBFA8F29EFF028A08D53AA258 /* LICENSE */,
-				2A658901414185F32A4A0A1F609D1215 /* README.md */,
-				091285450ED732A48D999D4648D22E6E /* TTLib.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,12 +264,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8AEBF310692C7FA8BC0228741E505B8 /* Headers */ = {
+		BEDFB122384550FD0553712DB4D6674F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FD116C1CC3B3DB5A7F4C6BC0BA13B9 /* NSString+TT.h in Headers */,
-				072ECFB92F44A93BD3AEC121CB3933FA /* TTLib-umbrella.h in Headers */,
+				70B0A90E3790210429FF2741D6EA9F95 /* NSString+TT.h in Headers */,
+				AB8D532DAE862F5D2A581FA1A00CC148 /* NSString+TTOne.h in Headers */,
+				17FA9B8ACD1A5192ACEF85C9886D4127 /* TTLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +299,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 174176826288FB1F5C5CDBD257CCAF97 /* Build configuration list for PBXNativeTarget "TTLib" */;
 			buildPhases = (
-				80B881812378334C9FB5804235B90F34 /* Sources */,
+				D2A9F98267306D8894F9C7521B9EC5C7 /* Sources */,
 				C053BBAC6DDC0D450106D6F03B9899E5 /* Frameworks */,
-				D8AEBF310692C7FA8BC0228741E505B8 /* Headers */,
+				BEDFB122384550FD0553712DB4D6674F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,20 +367,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80B881812378334C9FB5804235B90F34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74C7BCE9DA0937DC24D9B075DBE5146F /* NSString+TT.m in Sources */,
-				54B2FE92344C435684555394F98A512F /* TTLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85611150FD664D9E9DDA8BF19D90C8F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C6850919A344370E886E40ECB4B05326 /* Pods-TTLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A9F98267306D8894F9C7521B9EC5C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D35062437FD31F6138070BF41BAC4 /* NSString+TT.m in Sources */,
+				58F3D8B0F5A5BDB8B7A58E759EC460C0 /* NSString+TTOne.m in Sources */,
+				1A6A718F945E6F5B73D22A707E26CA3A /* TTLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,39 +403,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		261B4609CD901F86994AF38DDD07E37E /* Debug */ = {
+		07B2FEACC0C24E0DBB27312F04A8341C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E77D6E2E44BEB2C39EF7BD247028C5E /* TTLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTLib/TTLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTLib/TTLib.modulemap";
-				PRODUCT_MODULE_NAME = TTLib;
-				PRODUCT_NAME = TTLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		586374C00D01565E636204CDE5D0FF5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97816DC7BA6F60ED304651FA739059C2 /* Pods-TTLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = C8B1125085A5A54E997E3BC6E3381253 /* Pods-TTLib_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -430,12 +417,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Tests/Pods-TTLib_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Example/Pods-TTLib_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -444,12 +431,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -502,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,9 +500,39 @@
 			};
 			name = Debug;
 		};
-		B3BFC7CC30448DCCCCA7FE281B012665 /* Release */ = {
+		261B4609CD901F86994AF38DDD07E37E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8B1125085A5A54E997E3BC6E3381253 /* Pods-TTLib_Example.release.xcconfig */;
+			baseConfigurationReference = 03C7DE8BBB611AC83C525F36C85D2476 /* TTLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTLib/TTLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTLib/TTLib.modulemap";
+				PRODUCT_MODULE_NAME = TTLib;
+				PRODUCT_NAME = TTLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48F31744C6D60D31C718ECB82F48F8BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81A19786423D126FB76535ACF209367 /* Pods-TTLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -528,10 +546,43 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Example/Pods-TTLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FFCF3535E55489E5C46BEAD0D6CE652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876BBAD290AAFDDF32D8068F49C370B0 /* Pods-TTLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Tests/Pods-TTLib_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -546,7 +597,71 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		CB0777EB012F024F66882E9674D69E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97816DC7BA6F60ED304651FA739059C2 /* Pods-TTLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Tests/Pods-TTLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDEE630B215B0CA89854F8A0DC180FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C7DE8BBB611AC83C525F36C85D2476 /* TTLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TTLib/TTLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTLib/TTLib.modulemap";
+				PRODUCT_MODULE_NAME = TTLib;
+				PRODUCT_NAME = TTLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -596,111 +711,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		CBFB5F2B3958A16CDC9560D99C71E21B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876BBAD290AAFDDF32D8068F49C370B0 /* Pods-TTLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Tests/Pods-TTLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DDEE630B215B0CA89854F8A0DC180FC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E77D6E2E44BEB2C39EF7BD247028C5E /* TTLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TTLib/TTLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TTLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TTLib/TTLib.modulemap";
-				PRODUCT_MODULE_NAME = TTLib;
-				PRODUCT_NAME = TTLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		ED26DF9AF3740BCDD4461AC7C9932FD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F81A19786423D126FB76535ACF209367 /* Pods-TTLib_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TTLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TTLib_Example/Pods-TTLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -717,8 +734,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -726,8 +743,8 @@
 		39FCE0989E9C1C3AFEE59B938F4432AF /* Build configuration list for PBXNativeTarget "Pods-TTLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED26DF9AF3740BCDD4461AC7C9932FD9 /* Debug */,
-				B3BFC7CC30448DCCCCA7FE281B012665 /* Release */,
+				48F31744C6D60D31C718ECB82F48F8BA /* Debug */,
+				07B2FEACC0C24E0DBB27312F04A8341C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -735,8 +752,8 @@
 		D63C45DF201804E507A484B4A9AAA489 /* Build configuration list for PBXNativeTarget "Pods-TTLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				586374C00D01565E636204CDE5D0FF5D /* Debug */,
-				CBFB5F2B3958A16CDC9560D99C71E21B /* Release */,
+				CB0777EB012F024F66882E9674D69E3A /* Debug */,
+				9FFCF3535E55489E5C46BEAD0D6CE652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

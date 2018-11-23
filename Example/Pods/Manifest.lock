@@ -1,5 +1,7 @@
 PODS:
-  - TTLib (0.1.0)
+  - TTLib (0.2.0):
+    - TTLib/TestOne (= 0.2.0)
+  - TTLib/TestOne (0.2.0)
 
 DEPENDENCIES:
   - TTLib (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TTLib: 8a01b7bf643706f6b679f41b31bf9ce8ce33f197
+  TTLib: dbe4437c974dac09afcf5029ca4ff6f29e3ae0f7
 
-PODFILE CHECKSUM: 9c8b1e25181a907623e1730f66e2d2d56bdb23a4
+PODFILE CHECKSUM: 4b74ff41706aecbf875ec9c3f37fd72a9fec9c57
 
 COCOAPODS: 1.5.3
